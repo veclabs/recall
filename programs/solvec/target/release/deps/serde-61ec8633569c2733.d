@@ -1,0 +1,14 @@
+/Users/dhirkatre/code/veclabs/recall/programs/solvec/target/release/deps/serde-61ec8633569c2733.d: /Users/dhirkatre/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /Users/dhirkatre/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /Users/dhirkatre/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /Users/dhirkatre/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /Users/dhirkatre/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /Users/dhirkatre/code/veclabs/recall/programs/solvec/target/release/build/serde-dda1ac8c48096525/out/private.rs
+
+/Users/dhirkatre/code/veclabs/recall/programs/solvec/target/release/deps/libserde-61ec8633569c2733.rlib: /Users/dhirkatre/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /Users/dhirkatre/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /Users/dhirkatre/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /Users/dhirkatre/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /Users/dhirkatre/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /Users/dhirkatre/code/veclabs/recall/programs/solvec/target/release/build/serde-dda1ac8c48096525/out/private.rs
+
+/Users/dhirkatre/code/veclabs/recall/programs/solvec/target/release/deps/libserde-61ec8633569c2733.rmeta: /Users/dhirkatre/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /Users/dhirkatre/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /Users/dhirkatre/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /Users/dhirkatre/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /Users/dhirkatre/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /Users/dhirkatre/code/veclabs/recall/programs/solvec/target/release/build/serde-dda1ac8c48096525/out/private.rs
+
+/Users/dhirkatre/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs:
+/Users/dhirkatre/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs:
+/Users/dhirkatre/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs:
+/Users/dhirkatre/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs:
+/Users/dhirkatre/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs:
+/Users/dhirkatre/code/veclabs/recall/programs/solvec/target/release/build/serde-dda1ac8c48096525/out/private.rs:
+
+# env-dep:OUT_DIR=/Users/dhirkatre/code/veclabs/recall/programs/solvec/target/release/build/serde-dda1ac8c48096525/out
