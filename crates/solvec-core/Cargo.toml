@@ -27,3 +27,6 @@ harness = false
 [[bench]]
 name = "distance_bench"
 harness = false
+
+[target.'cfg(target_arch = "wasm32")'.dependencies]
+js-sys = "0.3"

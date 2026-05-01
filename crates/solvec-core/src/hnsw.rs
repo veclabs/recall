@@ -9,7 +9,21 @@ use rand::Rng;
 use serde::{Deserialize, Serialize};
 use std::cmp::Ordering;
 use std::collections::{BinaryHeap, HashSet};
+#[cfg(not(target_arch = "wasm32"))]
 use std::time::{SystemTime, UNIX_EPOCH};
+
+#[cfg(target_arch = "wasm32")]
+fn now_ms() -> u64 {
+    (js_sys::Date::now()) as u64
+}
+
+#[cfg(not(target_arch = "wasm32"))]
+fn now_ms() -> u64 {
+    SystemTime::now()
+        .duration_since(UNIX_EPOCH)
+        .unwrap_or_default()
+        .as_millis() as u64
+}
 
 #[derive(Debug, Clone)]
 struct Candidate {
@@ -183,10 +197,7 @@ impl HNSWIndex {
 
         self.vectors.insert(id.clone(), vector);
 
-        let now = SystemTime::now()
-            .duration_since(UNIX_EPOCH)
-            .unwrap_or_default()
-            .as_millis() as u64;
+        let now = now_ms();
         self.written_at.insert(id.clone(), now);
         self.node_levels.insert(id.clone(), insert_level);
 
@@ -542,10 +553,7 @@ impl HNSWIndex {
 
     fn _record_merkle_event(&mut self, _trigger_id: &str, trigger: &str) {
         let root = self._current_merkle_root();
-        let now = SystemTime::now()
-            .duration_since(UNIX_EPOCH)
-            .unwrap_or_default()
-            .as_millis() as u64;
+        let now = now_ms();
 
         if trigger == "write" {
             self.merkle_root_at_write
