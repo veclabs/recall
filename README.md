@@ -162,4 +162,4 @@ MIT. See [LICENSE](LICENSE).
 
 ---
 
-[veclabs.xyz](https://veclabs.xyz) · [@veclabs](https://x.com/veclabs46369) · [Discord](https://discord.gg/veclabs)
+[veclabs.xyz](https://veclabs.xyz) · [@veclabs](https://x.com/veclabs46369) ·
