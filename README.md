@@ -126,8 +126,8 @@ cd programs/solvec && anchor build && anchor test --skip-deploy
 | AES-256-GCM encryption         | ✅ Complete                                          |
 | Merkle tree + proof generation | ✅ Complete — domain separator verified cross-language |
 | Solana Anchor program          | ✅ Live on devnet — 6/6 tests passing                |
-| Shadow Drive integration       | 🔄 In progress                                      |
-| WASM bridge                    | 🔄 In progress                                      |
+| Irys · Arweave permanent storage | ✅ Complete (Pro tier)                             |
+| WASM bridge                    | ✅ Complete                                      |
 | Mainnet deployment             | 📋 Planned                                          |
 
 ---
